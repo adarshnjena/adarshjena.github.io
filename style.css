@@ -121,6 +121,10 @@ header div{
 .project{
     border-bottom:3px dotted white ;
 }
+
+img{
+    border-radius: 40px;
+}
 /*Work Exp
 ----------------------------------------------------*/
 .work{
