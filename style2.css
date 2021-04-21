@@ -73,6 +73,7 @@ a:hover{
     border-radius: 10px;
     display: inline-block;
     text-decoration: none;
+    margin: 5px;
 }
 
 .btn:hover{
@@ -114,6 +115,10 @@ header div{
 ----------------------------------------------------*/
 .work{
     background-color: #e8eddf;
+}
+
+.work a{
+    color: darkred;
 }
 
 
