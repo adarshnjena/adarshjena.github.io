@@ -1,0 +1,144 @@
+/*Global 
+----------------------------------------------------------*/
+* , *::after ,*::before{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-wrap{
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contact-us{
+    position:fixed;
+    bottom: 2px;
+    right: 2px;
+    padding: 2.5vh;
+    border-radius: 10px;
+    background-color:#e63946;
+    color:white;
+    text-decoration: none;
+}
+
+.contact-us:hover {
+    font-weight: bold;
+    background-color: white;
+    color: #e63946;
+    border: solid 2px #e63946;
+  }
+
+h1 , h2{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+img{
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+
+.project::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a{
+    color: gold;
+  }
+a:hover{
+    text-decoration: none;
+    color: #ffb800;
+  }
+
+.btn{
+    background-color:#50514f;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color:#202020;
+    background-color: goldenrod;
+}
+/*Headre
+-----------------------------------------------------------*/
+header{
+    background-color:#ffba08;
+    color:#184e77;
+    text-align: center;
+    position:sticky;
+    top:0px;
+}
+
+header div{
+    padding: 1px;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.intro{
+    text-align: center;
+    background-color:#ffba08;
+    color:#184e77;
+}
+
+/*projects
+----------------------------------------------------*/
+
+.project-wrap{
+    background-color: #17c3b2;
+    color: white;
+}
+
+/*Work Exp
+----------------------------------------------------*/
+.work{
+    background-color: #e8eddf;
+}
+
+
+
+/*Footer
+----------------------------------------------------*/
+footer{
+    background-color: #242423;
+    color: white;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer div ul li{
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
