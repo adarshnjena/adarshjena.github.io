@@ -64,20 +64,7 @@ a:hover{
     color: #ffb800;
   }
 
-.btn{
-    background-color:#50514f;
-    color: wheat;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-    text-decoration: none;
-    margin: 5px;
-}
 
-.btn:hover{
-    color:#202020;
-    background-color: goldenrod;
-}
 /*Headre
 -----------------------------------------------------------*/
 header{
@@ -113,6 +100,22 @@ header div{
     content: "";
     clear: both;
     display: table;
+}
+
+.btn{
+    background-color:#50514f;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    color:#202020;
+    background-color: goldenrod;
 }
 
 .project{
