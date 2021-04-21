@@ -11,6 +11,7 @@ html{
 body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .content-wrap{
@@ -40,6 +41,8 @@ body{
 
 h1 , h2{
     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 h1{
     font-weight: bold;
@@ -52,11 +55,6 @@ img{
     padding: 20px;
 }
 
-.project::after{
-    content: "";
-    clear: both;
-    display: table;
-}
 
 a{
     color: gold;
@@ -111,11 +109,20 @@ header div{
     color: white;
 }
 
+.project::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.project{
+    border-bottom:3px dotted white ;
+}
 /*Work Exp
 ----------------------------------------------------*/
 .work{
     background-color: #e8eddf;
-}
+}ss
 
 .work a{
     color: darkred;
