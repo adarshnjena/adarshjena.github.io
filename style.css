@@ -72,14 +72,11 @@ header{
     text-align: center;
     position:sticky;
     top:0px;
+    padding: 1px;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
-header div{
-    padding: 1px;
-    max-width: 900px;
-    margin: 0 auto;
-    align-items: center;
-}
 
 .intro{
     text-align: center;
