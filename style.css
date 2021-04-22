@@ -15,8 +15,9 @@ body{
 }
 
 .content-wrap{
-    padding: 40px;
+    padding: 40px 0;
     max-width: 900px;
+    width:85%;
     margin: 0 auto;
     align-items: center;
 }
@@ -135,21 +136,30 @@ img{
 
 
 
+/*Education
+----------------------------------------------------*/
+.education{
+    background-color: #caffbf;
+}
+
+
 /*Footer
 ----------------------------------------------------*/
 footer{
     background-color: #242423;
     color: white;
-    align-items: center;
     text-align: center;
-
 }
 
-footer div ul li{
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-list li{
     display: inline-block;
     padding: 10px;
-    align-items: center;
-    text-align: center;
 }
 
 
