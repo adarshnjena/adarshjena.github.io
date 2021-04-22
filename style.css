@@ -27,7 +27,7 @@ body{
     position:fixed;
     bottom: 2px;
     right: 2px;
-    padding: 2.5vh;
+    padding: 3vh;
     border-radius: 10px;
     background-color:#e63946;
     color:white;
@@ -123,6 +123,10 @@ header{
     background-color: goldenrod;
 }
 
+.doc{
+    padding: 10px 20px;
+}
+
 .project{
     border-bottom:3px dotted white ;
 }
@@ -159,6 +163,7 @@ img{
 footer{
     background-color: #242423;
     color: white;
+    height: 45vh;
     text-align: center;
     background-image: url(images/pexels-sathesh-d-698808.jpg);
     background-size: cover;
@@ -177,11 +182,11 @@ footer{
 
 /*media-queries
 ---------------------------------------------------------*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     img{
         float: none;
-        margin: 0;
-        padding: auto;
+        margin-top: 20px;
+        padding: 2px;
     }
     .project{
         display: block;
@@ -190,6 +195,40 @@ footer{
 
     .project p{
         text-align: justify;
+    }
+
+    .btn{
+        padding: 10px 20px;
+    }
+
+    .doc{
+        padding: 10px 50px;
+    }
+
+    .contact-us{
+        padding: 2vh;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    img{
+        float: none;
+        margin-top: 20px;
+        padding: 2px;
+    }
+    .project{
+        display: block;
+        text-align: center;
+    }
+
+    .project p{
+        text-align: justify;
+    }
+
+    .btn{
+        padding: 10px 20px;
     }
 
     .doc{
@@ -203,8 +242,13 @@ footer{
         margin: 0;
     }
 
+    .contact-us{
+        padding: 1.5vh;
+    }
+    footer{
+        height: auto;
+    }
 }
-
 
 
 
