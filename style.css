@@ -59,6 +59,10 @@ a:hover{
     color: #ffb800;
   }
 
+  h3 + p{
+      font-style: italic;
+  }
+  
 
 /*Headre
 -----------------------------------------------------------*/
@@ -89,6 +93,10 @@ header div{
 .project-wrap{
     background-color: #17c3b2;
     color: white;
+}
+
+.project p{
+    font-style: normal;
 }
 
 .project::after{
