@@ -11,6 +11,7 @@ html{
 body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
 
 }
 
@@ -131,7 +132,6 @@ img{
     width: 300px;
     float: left;
     padding: 20px;
-    padding-left: 0;
 }
 /*Work Exp
 ----------------------------------------------------*/
@@ -175,6 +175,35 @@ footer{
 }
 
 
+/*media-queries
+---------------------------------------------------------*/
+@media screen and (max-width: 500px){
+    img{
+        float: none;
+        margin: 0;
+        padding: auto;
+    }
+    .project{
+        display: block;
+        text-align: center;
+    }
+
+    .project p{
+        text-align: justify;
+    }
+
+    .doc{
+        padding: 10px 40px;
+    }
+
+    .contact-list li{
+        display: block;
+        text-align: center;
+        padding:10px;
+        margin: 0;
+    }
+
+}
 
 
 
