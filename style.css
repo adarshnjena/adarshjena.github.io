@@ -12,7 +12,9 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
-    animation: slideup 1s;
+    transform: translateY(-700px);
+    opacity: 0;
+    animation: clear 0.7s forwards;
 
 }
 
@@ -59,6 +61,8 @@ h1{
 
 h1 , h2 , h3{
     animation: slide-left 1s;
+    transform: translateX(500px);
+    animation: clear 1s forwards;
 }
 
 
@@ -305,23 +309,11 @@ footer{
 
 
 
-@keyframes slideup{
-    from{
-        transform: translateY(-700px);
-        opacity: 0;
-    }
-    to{
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
-@keyframes slide-left {
-    from{
-        transform: translateX(500px);
-    }
+@keyframes clear{
     to{
-        transform: translateX(0);
+        transform: none;
+        opacity: 1; 
     }
 }
 
