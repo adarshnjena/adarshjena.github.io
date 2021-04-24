@@ -14,7 +14,7 @@ body{
     line-height: 1.7;
     transform: translateY(-700px);
     opacity: 0;
-    animation: clear 0.7s forwards;
+    animation: clear 0.7s 0.5s forwards;
 
 }
 
@@ -62,7 +62,7 @@ h1{
 h1 , h2 , h3{
     animation: slide-left 1s;
     transform: translateX(500px);
-    animation: clear 1s forwards;
+    animation: clear 0.7s 0.5s forwards;
 }
 
 
