@@ -68,24 +68,26 @@ a:hover{
 /*Headre
 -----------------------------------------------------------*/
 header{
-    background-color:#ffba08;
+    background-image: linear-gradient(to right ,#ffe066 ,#ff9f1c);
     color:#184e77;
     text-align: center;
-    position:sticky;
+    position:fixed;
     top:0px;
     padding: 2px;
     margin: 0 auto;
     padding-bottom: 10px;
+    z-index: 100;
+    width: 100%;
 }
 
 
 .intro{
     text-align: center;
-    background-color:#ffba08;
+    background-image: linear-gradient(to right ,#ffe066 ,#ff9f1c);
     color:#184e77;
-    background-image: url();
     background-position: right top;
     background-size: cover;
+    margin-top: 70px;
 
 }
 
@@ -116,11 +118,40 @@ header{
     text-decoration: none;
     margin: 5px;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    bottom: 0;
+    left: 5%;
+    border-radius: 20px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    top: 0;
+    left: 5%;
+    border-radius: 20px;
+    background-color:white;
+    visibility: hidden;
 }
 
 .btn:hover{
     color:#202020;
     background-color: goldenrod;
+}
+
+.btn:hover::after , .btn:hover::before{
+    visibility: visible;
 }
 
 .doc{
