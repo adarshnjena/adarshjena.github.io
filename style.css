@@ -12,6 +12,7 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
+    animation: slideup 0.7s;
 
 }
 
@@ -39,16 +40,25 @@ body{
     background-color: white;
     color: #e63946;
     border: solid 2px #e63946;
+    transform:scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    transition-duration: 150ms;
+
   }
 
 h1 , h2{
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 0px;
     margin-bottom: 0;
+
   }
 h1{
     font-weight: bold;
     font-size: 50px;
+
+}
+
+h1 , h2 , h3{
+    animation: slide-left 1s;
 }
 
 
@@ -58,6 +68,7 @@ a{
 a:hover{
     text-decoration: none;
     color: #ffb800;
+    font-weight: 800;
   }
 
   h3 + p{
@@ -79,6 +90,7 @@ header{
     margin: 0 auto;
     padding-bottom: 10px;
     z-index: 100;
+
 }
 
 
@@ -132,7 +144,8 @@ header{
     left: 5%;
     border-radius: 20px;
     background-color: white;
-    visibility: hidden;
+    scale: 0;
+    opacity: 0;
 }
 
 .btn::after{
@@ -144,16 +157,23 @@ header{
     left: 5%;
     border-radius: 20px;
     background-color:white;
-    visibility: hidden;
+    transform: skewX(0);
+    opacity: 0;
 }
 
 .btn:hover::before , .btn:hover::after{
-    visibility: visible;
+    opacity: 1;
+    transform: skewX(1);
+    transition: all 0.5s cubic-bezier(.17,.67,.71,1.64);
 }
 
 .btn:hover{
     color:#202020;
     background-color: goldenrod;
+    transform:scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+    transition: all 0.5s;
+    transition-duration: 200ms;
+    transition-property: all;
 }
 
 .doc{
@@ -285,5 +305,21 @@ footer{
 
 
 
+@keyframes slideup{
+    from{
+        transform: translateY(-700px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 
+@keyframes slide-left {
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
 
