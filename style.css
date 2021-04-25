@@ -21,10 +21,6 @@ body{
     width:85%;
     margin: 0 auto;
     align-items: center;
-    transform: translateY(-700px);
-    opacity: 0;
-    animation: clear 1s 0.4s forwards;
-
 }
 
 .contact-us{
@@ -43,9 +39,6 @@ body{
     background-color: white;
     color: #e63946;
     border: solid 2px #e63946;
-    transform:scaleX(1.2) scaleY(1.2) scaleZ(1.2);
-    transition-duration: 150ms;
-
   }
 
 h1 , h2{
@@ -58,11 +51,6 @@ h1{
     font-weight: bold;
     font-size: 50px;
 
-}
- h2 , h3{
-    animation: slide-left 1s;
-    transform: translateX(900px);
-    animation: clear 1.6s 0.4s forwards;
 }
 
 
