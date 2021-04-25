@@ -12,9 +12,6 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
-    transform: translateY(-700px);
-    opacity: 0;
-    animation: clear 0.7s 0.4s forwards;
 
 }
 
@@ -24,6 +21,10 @@ body{
     width:85%;
     margin: 0 auto;
     align-items: center;
+    transform: translateY(-700px);
+    opacity: 0;
+    animation: clear 1s 0.4s forwards;
+
 }
 
 .contact-us{
@@ -56,13 +57,11 @@ h1 , h2{
 h1{
     font-weight: bold;
     font-size: 50px;
-    transform: translateX(500px);
-    animation: clear 1.2s 0.4s forwards;
 
 }
  h2 , h3{
     animation: slide-left 1s;
-    transform: translateX(500px);
+    transform: translateX(900px);
     animation: clear 1.6s 0.4s forwards;
 }
 
