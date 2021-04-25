@@ -57,13 +57,13 @@ h1{
     font-weight: bold;
     font-size: 50px;
     transform: translateX(500px);
-    animation: clear 1.2s 0.5s forwards;
+    animation: clear 1.2s 0.4s forwards;
 
 }
  h2 , h3{
     animation: slide-left 1s;
     transform: translateX(500px);
-    animation: clear 1.6s 0.5s forwards;
+    animation: clear 1.6s 0.4s forwards;
 }
 
 
