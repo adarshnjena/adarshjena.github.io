@@ -139,8 +139,8 @@ header{
     left: 5%;
     border-radius: 20px;
     background-color: white;
+    transform: scaleX(0);
     scale: 0;
-    opacity: 0;   
 }
 
 .btn::after{
@@ -152,12 +152,12 @@ header{
     left: 5%;
     border-radius: 20px;
     background-color:white;
-    opacity: 0;
+    transform: scaleX(0);
 }
 
 .btn:hover::before , .btn:hover::after{
-    opacity: 1;
-    transition: all 0.9s cubic-bezier(.17,.67,.71,1.64);
+    transform: scaleX(1);
+    transition: all 200ms;
 }
 
 .btn:hover{
