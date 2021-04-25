@@ -173,7 +173,7 @@ header{
 
 .btn:hover{
     color:#202020;
-    background-color: goldenrod;
+    background-color: #ffba08;
     transform:scaleX(1.2) scaleY(1.2) scaleZ(1.2);
     transition: all 0.5s;
     transition-duration: 200ms;
