@@ -13,7 +13,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     transform: translateY(-2000px);
-    animation: clear 1.5s 0.5s forwards;
+    animation: clear 1.5s 1s forwards;
 }
 
 .content-wrap{
@@ -52,7 +52,7 @@ h1 , h2{
 
 h1 , h2 , h3{
     transform: translateX(500px);
-    animation: clear 1.5s 0.5s forwards;
+    animation: clear 1.5s 1s forwards;
 }
 
 h1{
